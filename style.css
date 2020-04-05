@@ -38,3 +38,48 @@ body {
     flex: 1;
     order: 3;
 }
+
+
+/* Latihan 2 */
+
+.container-dua {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgb(134, 89, 21);
+}
+
+.layanan {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.layanan.satu {
+    background-color: rgb(41, 41, 145);
+}
+
+.layanan.dua {
+    background-color: rgb(6, 124, 79);
+}
+
+.layanan.tiga {
+    background-color: rgb(148, 36, 16);
+}
+
+
+/* Responsive */
+
+@media screen and (min-width: 700px) {
+    .container-dua {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 700px) {
+    .layanan {
+        margin-bottom: 15px;
+        margin: 25px auto;
+        width: 100%;
+    }
+}

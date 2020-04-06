@@ -121,6 +121,30 @@ body {
 }
 
 
+/* Latihan 5 */
+
+.container-lima {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 5px solid white;
+    display: flex;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+span {
+    margin: auto;
+}
+
+
 /* Responsive */
 
 @media screen and (min-width: 700px) {

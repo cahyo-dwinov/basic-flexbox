@@ -67,12 +67,34 @@ body {
 }
 
 
+/* Latihan 3: Galery */
+
+.container-tiga {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tumbnail {
+    width: 50%;
+}
+
+.tumbnail img {
+    width: 100%;
+}
+
+
 /* Responsive */
 
 @media screen and (min-width: 700px) {
     .container-dua {
         display: flex;
         justify-content: space-evenly;
+    }
+    .tumbnail {
+        width: 25%;
     }
 }
 
